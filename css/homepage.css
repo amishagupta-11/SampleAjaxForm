@@ -1,0 +1,28 @@
+.section {
+    text-align: center;    
+    height:100vh;
+    overflow:hidden;
+}
+#img{
+    height:100vh;
+    width:200vh;
+}
+#result {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block; 
+    margin-bottom: 20px;
+    position: absolute;
+    white-space: nowrap;
+    left: 100%; /* Start off-screen to the right */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%);
+}
+#pagepiling {
+    margin-top: 20px; /* Adjust the value as needed */
+}
+#AboutUs {
+    text-align: center; /* Center-align text */
+    padding: 20px; /* Add padding for spacing */
+    background-color: #f9f9f9; /* Optional: Add a background color */
+    margin-top: 600px;;
+}

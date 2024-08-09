@@ -1,0 +1,36 @@
+.card-text {
+    display: none;
+}
+
+.show-more {
+    background-color: #008cba;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.watch{
+    background-color:salmon;
+    color: white;   
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left:30px;
+    cursor: pointer;
+    
+}
+
+.card-img-top{
+    height: 200px;
+    object-fit: cover;
+}
