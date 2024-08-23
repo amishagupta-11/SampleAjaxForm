@@ -44,7 +44,7 @@ $(document).ready(function(){
 
             function floatText() {
                 // Calculate the new position
-                var newPos = $this.position().left - settings.speed;
+                let newPos = $this.position().left - settings.speed;
 
                 // Reset position if the text moves out of the viewport
                 if (newPos + $this.width() < 0) {

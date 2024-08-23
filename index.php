@@ -98,9 +98,9 @@
                     </div>                             
                     <div class="form-group">
                         <input type="submit" name="forgot" id="forgot" value="Reset" class="btn btn-primary btn-block">
-                     </div>
+                    </div>
                     <div class="form-group text-center">
-                         <a href="#" id="back-btn">Back</a>
+                        <a href="#" id="back-btn">Back</a>
                     </div>
                     <div id="response-message" class="text-center"></div>
                 </form>

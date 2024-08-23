@@ -28,7 +28,7 @@ $(document).ready(function(){
     
     // without using the validate method
     $('#uname').on('keyup', function() {     
-        var uname = $(this).val();     
+        let uname = $(this).val();     
         $(".error").remove();
         if (uname.length > 0 && uname.length < 5) {
             $(this).after('<span class="error" style="color: red;">Username should be greater than 5 characters</span>');
